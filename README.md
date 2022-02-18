@@ -12,7 +12,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 ### Links
 
-- Solution URL: (https://felonta.github.io/Profile-Card/)
+- Solution URL: (https://felonta.github.io/Profile_card_Challenge/)
 
 ## My process
 
