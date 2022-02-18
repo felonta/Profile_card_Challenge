@@ -86,7 +86,7 @@ main {
   margin-top: 2vh;
   padding: 2vh 4vh 0 4vh;
   border-top: 1px solid hsl(0, 10%, 88%);
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1200px) {
