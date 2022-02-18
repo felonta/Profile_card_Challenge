@@ -89,14 +89,14 @@ main {
   border-top: 1px solid hsl(0, 10%, 88%);
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1200px) {
+@media only screen and (min-width: 900px) and (max-width: 1440px) {
   main {
-    background-position: 400% -80vh, -700% 55vh;
+    background-position: -90% -80vh, 130% 55vh;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 375px) {
   main {
-    background-position: 250% -80vh, -250% 55vh;
+    background-image: none;
   }
 }
