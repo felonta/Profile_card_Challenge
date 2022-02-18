@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh sans", sans-serif;
+}
+
+body {
+  font-size: 1.125rem;
+  color: hsl(229, 23%, 23%);
+  background: hsl(185, 75%, 39%);
+}
+
+main {
+  background-image: url("../assets/images/bg-pattern-top.svg"),
+    url("../assets/images/bg-pattern-bottom.svg");
+  background-position: -0% -30vh, 110% 50vh;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: hsl(0, 0%, 100%);
+  max-width: 38vh;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.header-container {
+  background: url("../assets/images/bg-pattern-card.svg");
+  background-size: cover;
+  width: 38vh;
+  height: 16vh;
+}
+.image-profile {
+  width: 12vh;
+  height: 12vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: -50px auto -30px auto;
+  border: 5px solid hsl(0, 0%, 100%);
+}
+.image-profile img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.card-body {
+  margin-top: 6vh;
+  margin-bottom: -8vh;
+  height: 27vh;
+  line-height: 1.8rem;
+}
+.card-body .name {
+  font-size: 1.4rem;
+}
+.card-body .city {
+  margin-top: 10px;
+}
+.card-body .age {
+  padding-left: 10px;
+}
+.card-body .age,
+.city {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: hsl(0, 0%, 59%);
+}
+.social-data .soc {
+  display: block;
+  letter-spacing: 0.1rem;
+  color: hsl(0, 0%, 59%);
+}
+.social-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 2vh;
+  padding: 2vh 4vh 0 4vh;
+  border-top: 1px solid hsl(0, 10%, 88%);
+  font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  main {
+    background-position: 400% -80vh, -700% 55vh;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  main {
+    background-position: 250% -80vh, -250% 55vh;
+  }
+}
