@@ -27,6 +27,7 @@ main {
 .container {
   background: hsl(0, 0%, 100%);
   max-width: 38vh;
+  height: 45vh;
   border-radius: 15px;
   overflow: hidden;
   text-align: center;
